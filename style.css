@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Shippori+Antique&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    position: static;
+}
+
+#logo-title {
+    display: flex;
+    align-items: baseline;
+    color: #EC1D26;
+}
+
+#logo-title h4{
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #FEF102;
+}
+
+#logo-title h1{
+    font-family: 'Shippori Antique';
+}
+
+#nav-title ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+}
+
+#nav-title ul li a{
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff000d;
+}
+
+#nav-title ul li a:hover{
+    color: #FEF102;
+}
+
+#before-house #box-text-promo{
+    height: 500px;
+    background-position: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+    background-image: url('/ramen/assets/food-wallpaper.jpg');
+    padding: 15% 0% 0% 5%;
+    color: #000;
+}
+
+#bar-before hr{
+    background-color: #000;
+    border: 1.5px solid;
+    width: 100%;
+}
+
+#bar-before {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEF102;
+}
+
+#figure {
+    background-color: #ff000d;
+    height: 60px;
+    width: 60px;
+    margin-top: -28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-house {
+    display: flex;
+    flex-direction: row;
+    background-color: #FEF102;
+    font-family: 'Roboto';
+}
+
+#image-house {
+    width: 50%;
+}
+
+#image-house img{
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+#box-text-our-house {
+    width: 50%;
+    margin: 0px 16px 90px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#box-text-our-house h2{
+    font-size: 48px;
+}
+
+#box-text-our-house p{
+    font-size: 24px;
+}
+
+#menu {
+    height: max-content;
+    background-color: #000;
+    font-family: 'Roboto';
+    color: #EC1D26;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu h2{
+    text-align: center;
+    margin: 48px 0px 40px 0px;
+    font-size: 36px;
+}
+
+.box-plates {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.box-plates img{
+    border: transparent solid 9px;
+}
+
+.box-plates img:hover{
+    border: #fff solid 9px;
+    transition: ease-in-out 0.4s;
+}
+
+#where-is {
+    background-color: #FEF102;
+    font-family: 'Roboto';
+    display: flex;
+    padding: 70px;
+    gap: 6vh;
+}
+
+#where-is h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.information {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+#news {
+    background-color: #000;
+    font-family: 'Roboto';
+    color: #ff000d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#news-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2vh;
+}
+
+#news h2{
+    font-size: 38px;
+}
+
+#news-form input{
+    height: 5vh;
+    color: #fff;
+    background-color: transparent;
+    border: #ff000d 2px solid;
+    padding: 10px;
+}
+
+#news-form button{
+    background-color: transparent;
+    height: 5vh;
+    color:#ff000d;
+    border: 2px solid #ff000d;
+    width: 25%;
+    margin: auto;
+    font-weight: 600;
+}
+
+#news-form button:hover{
+    background-color: #ff000d;
+    color: #fff;
+    transition: ease-in 0.3s;
+}
+
+#news-form input::placeholder{
+    color: #fff;
+}
